@@ -2,9 +2,8 @@
 ## Project 5
 ### Linux Server Configuration
 
-date: 2016-02-23
-
-author: Tito Lins
+  date: 2016-02-23
+  author: Tito Lins
 
 #### Description
 This is the last project required for the completion of the Full Stack Web

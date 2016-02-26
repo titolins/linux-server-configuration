@@ -19,10 +19,16 @@ application developed during the 3rd project of this course.
     * The server ip address is 52.37.32.202 and the current port open for ssh
       access is 2200. To be able to access, you need the provided private rsa
       key, as password access is disabled. Considering that you have saved the
-      rsa key contents to ~/.ssh/udacity_key.rsa, issue the following command
-      for ssh access:
+      rsa key contents provided in the notes to reviewer section to
+      `~/.ssh/udacity_key.rsa`, issue the following command for ssh access:
     ```
     ssh -i ~/.ssh/udacity_key.rsa grader@52.37.32.202 -p 2200
+    ```
+    * Note that if the permissions on the private key are to open, such key
+      will be ignored and you will not be able to access the server. To correct
+      that, simply change the permissions of the private key file, as below:
+    ```
+    sudo chmod 600 ~/.ssh/udacity_key.rsa
     ```
 
 * Website access:

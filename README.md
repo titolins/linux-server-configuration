@@ -91,8 +91,9 @@ application developed during the 3rd project of this course.
         ```
     * PostgreSQL
         * Created psql and respective unix user catalog with login disabled.
-        * Created catalog_app db and granted all privileges to it (later to be
-          restricted).
+        * Created catalog_app db and granted connect privileges to user
+          catalog. Besides that, granted update, delete, insert and select
+          privileges to user catalog on tables category, item and user.
         * There was no need to disable remote connections, as this is the
           current default.
     * Catalog App
